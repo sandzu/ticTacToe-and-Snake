@@ -1,0 +1,21 @@
+.tomato{
+  height: 33.33333333%;
+  width: 33.333333333%;
+  background-color: tomato;
+  padding: 5px;
+  border: solid black 3px;
+  list-style: none;
+  box-sizing: border-box;
+
+}
+
+.grid{
+  display: flex;
+  width: 200px;
+  height: 200px;
+  flex-wrap: wrap;
+}
+
+.tomato:hover {
+  background-color: yellow;
+}
